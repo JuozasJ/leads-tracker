@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 440px;
+    max-width: 600px;
+    background-color: #008080;
+}
+
+input {
+    width: 100%;
+    padding: 7.5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 2px;
+}
+
+button {
+    color: white;
+    font-weight: bold;
+    background-color: #202020;
+    padding: 10px 22px;
+    border: none;
+    margin-top: .5em;
+    cursor: pointer;
+    margin-right: .15em;
+
+    &:hover {
+        background-color: #404040;
+    }
+}
+
+#delete-btn {
+    color: #202020;
+    background-color: #ff9900;
+
+    &:hover {
+        background-color: #ff4d00;
+    }
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 1.25em;
+
+    li {
+        margin-bottom: .5em;
+
+        a {
+            color: white;
+            font-size: .85rem;
+            word-wrap: break-word;
+        }
+    }
+}
